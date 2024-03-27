@@ -14,7 +14,7 @@
   <link rel="shortcut icon" type="image/png" href=""/>
 
   <!-- Title of your site -->
-  <title>Charadex</title>
+  <title>WARRIORCATS</title>
 
   <!-- Description of your site -->
   <meta name="description" content="An automated masterlist for your species!">
@@ -60,11 +60,11 @@
       sheetPage: "Public Masterlist",
 
       // Amount of items shown on the page. Default is 12.
-      itemAmount: 12,
+      itemAmount: 15,
 
       // Ascending  (1 2 3) || asc
       // Descending (3 2 1) || desc
-      itemOrder: "desc",
+      itemOrder: "asc",
 
       // Columns the search looks through by default
       searchParams: ['id', 'owner', 'artist', 'designer'],
@@ -210,7 +210,7 @@
   <-- Please do not remove the credit
   <-------------------------------------------------------------------- -->
   <div class="footer bg-dark p-md-5 p-4 text-center">
-    <p><a class="text-reset" href="">[Species] © [Owner]</a></p>
+    <p><a class="text-reset" href="">[WCFP] © [KhaoticKoda]</a></p>
     <p><a href="https://github.com/cheeriko/charadex">Powered by Charadex</a></p>
   </div>
 
@@ -249,7 +249,7 @@
       <!-- Prev & Next Topbar -->
       <div class="card p-4 mb-4">
         <div class="row no-gutters m-n1 text-sans-serif font-weight-bold text-uppercase">
-          <div class="col-md-4 col-12 text-center p-1 order-md-1"><a id="masterlistLink" href="">Masterlist</a></div>
+          <div class="col-md-4 col-12 text-center p-1 order-md-1"><a id="masterlistLink" href="">WARRIOR CATS</a></div>
           <div class="col-md-4 col-6 p-1"><a id="entryPrev" href=""><i class="bi bi-chevron-left mr-2"></i><span></span></a></div>
           <div class="col-md-4 col-6 text-right p-1 order-md-1"><a id="entryNext" href=""><span></span><i class="bi bi-chevron-right ml-2"></i></a></div>
         </div>
@@ -279,14 +279,14 @@
             
             <!-- Item -->
             <div class="d-flex justify-content-between mb-2">
-              <b class="text-muted">Owner</b>
-              <span class="owner"></span>
+              <b class="text-muted">Name</b>
+              <span class="name"></span>
             </div>
               
             <!-- Item -->
             <div class="d-flex justify-content-between mb-2">
-              <b class="text-muted">Artist</b>
-              <span class="artist"></span>
+              <b class="text-muted">Base By</b>
+              <span class="base"></span>
             </div>
               
             <!-- Item -->
@@ -313,8 +313,8 @@
               
             <!-- Item -->
             <div class="d-flex justify-content-between mb-2">
-              <b class="text-muted">Design Type</b>
-              <span class="designtype"></span>
+              <b class="text-muted">Gender</b>
+              <span class="gender"></span>
             </div>
               
             <hr>
