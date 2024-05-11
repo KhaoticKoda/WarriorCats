@@ -141,9 +141,12 @@ const charadex = (options) => {
 
         let itemArray = Object.keys(sheetArray[0]);
         let imageIndex = itemArray.indexOf('image');
+        let avatarIndex = itemArray.indexOf('avatar');
         let linkIndex = itemArray.indexOf('link');
         itemArray[imageIndex] = {name: 'image', attr: 'src'};
+        itemArray[avatarIndex] = {name: 'avatar', attr: 'src'};
         itemArray[linkIndex] = {name: 'link', attr: 'href'};
+        
 
         return itemArray;
 
